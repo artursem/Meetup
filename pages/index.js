@@ -3,34 +3,6 @@ import Head from 'next/head';
 import { Fragment } from 'react/cjs/react.production.min';
 import MeetupList from '../components/meetups/MeetupList';
 
-const DUMMY_MEETUPS = [
-	{
-		id: 'm1',
-		title: 'A First Meetup',
-		image:
-			'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ratusz_wroclaw.JPG/1280px-Ratusz_wroclaw.JPG',
-		address: 'Rynek 14, 50-505 Wrocław',
-		descrption: 'This is a first meetup',
-	},
-	{
-		id: 'm2',
-		title: 'A Second Meetup',
-		image:
-			'https://upload.wikimedia.org/wikipedia/commons/5/5f/Stare_Miasto_w_Poznaniu.jpg',
-		address: 'Rynek 14, 50-505 Poznań',
-		descrption: 'This is a second meetup',
-	},
-
-	{
-		id: 'm3',
-		title: 'A Third Meetup',
-		image:
-			'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Krak%C3%B3w%2C_Sukiennice_%2820190218%29.jpg/800px-Krak%C3%B3w%2C_Sukiennice_%2820190218%29.jpg',
-		address: 'Rynek 14, 50-505 Kraków',
-		descrption: 'This is a third meetup',
-	},
-];
-
 const HomePage = (props) => {
 	return (
 		<Fragment>
